@@ -1,4 +1,4 @@
-FROM lachlanevenson/k8s-kubectl:v1.10.5
+FROM lachlanevenson/k8s-kubectl:v1.11.6
 
 
-RUN apk add --no-cache make bash
+RUN apk add --no-cache make bash jq
